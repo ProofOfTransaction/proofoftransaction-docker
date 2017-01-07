@@ -1,13 +1,13 @@
-# blockchainbox-docker
-Docker images for blockchainbox
+# Proof of transaction docker
+Docker images for ProofOfTransaction
 
 ## Run Docker
 
 Run commands below
 
 ```
-git clone https://github.com/PhyrexTsai/blockchainbox-docker
-cd blockchainbox-docker
+git clone https://github.com/ProofOfTransaction/proofoftransaction-docker
+cd proofoftransaction-docker
 docker-compose build
 docker-compose up
 ```
