@@ -1,12 +1,12 @@
 version: '2'
 services:
   postgres:
-    image: blockchainbox/postgres:latest
+    image: proofoftransaction/postgres:latest
     build: postgres/
     ports:
       - 5432:5432
   kafka:
-    image: blockchainbox/kafka:latest
+    image: proofoftransaction/kafka:latest
     build: kafka/
     environment:
       KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1
@@ -23,7 +23,7 @@ services:
     ports:
       - "2181:2181"  
   ethereum:
-    image: blockchainbox/ethereum:latest
+    image: proofoftransaction/ethereum:latest
     build: ethereum/   
     ports:
       - 3000:3000
